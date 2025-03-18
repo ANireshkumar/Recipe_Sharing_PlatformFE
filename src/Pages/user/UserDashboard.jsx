@@ -40,7 +40,7 @@ const Dashboard = () => {
         <main className="flex-1 p-6">
           <header className="flex justify-between items-center mb-6">
             <h2 className="text-3xl font-semibold">Dashboard</h2>
-            <button className="px-4 py-2 bg-blue-500 text-white rounded-md">Add New Recipe</button>
+            
           </header>
   
           {/* Recipe Cards */}
