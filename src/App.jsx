@@ -1,16 +1,16 @@
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router-dom";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/HomePage"
 import ToastProvider from "./components/ToastProvider";
 import RegisterPage from "./pages/RegisterPage";
 import LoginPage from "./pages/LoginPage";
-import LayoutWrapper from "./wrappers/LayoutWrapper";
+import LayoutWrapper from "./Wrappers/LayoutWrapper";
 import { Provider } from "react-redux";
 import store from "./redux/app/store";
-import DashboardWrapper from "./wrappers/DashboardWrapper";
+import DashboardWrapper from "./Wrappers/DashboardWrapper";
 import authLoader from "./loaders/unit/authLoader";
 import Logout from "./components/Logout";
-import AdminWrapper from "./wrappers/AdminWrapper";
+import AdminWrapper from "./Wrappers/AdminWrapper";
 import UserDashboard from "./pages/user/UserDashboard";
 import AdminDashboard from "./pages/admin/AdminDashboard";
 import UserFeed from "./pages/user/UserFeed";
