@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router-dom";
-import HomePage from './pages/HomePage';
+import HomePage from './Pages/HomePage';
 import ToastProvider from "./components/ToastProvider";
-import RegisterPage from "./pages/RegisterPage";
-import LoginPage from "./pages/LoginPage";
+import RegisterPage from "./Pages/RegisterPage";
+import LoginPage from "./Pages/LoginPage";
 import LayoutWrapper from "./Wrappers/LayoutWrapper";
 import { Provider } from "react-redux";
 import store from "./redux/app/store";
@@ -11,13 +11,13 @@ import DashboardWrapper from "./Wrappers/DashboardWrapper";
 import authLoader from "./loaders/unit/authLoader";
 import Logout from "./components/Logout";
 import AdminWrapper from "./Wrappers/AdminWrapper";
-import UserDashboard from "./pages/user/UserDashboard";
-import AdminDashboard from "./pages/admin/AdminDashboard";
-import UserFeed from "./pages/user/UserFeed";
-import CreatePost from "./pages/user/CreatePost";
+import UserDashboard from "./Pages/user/UserDashboard";
+import AdminDashboard from "./Pages/admin/AdminDashboard";
+import UserFeed from "./Pages/user/UserFeed";
+import CreatePost from "./Pages/user/CreatePost";
 import userFeedLoader from "./loaders/combined/userFeedLoader";
 import ConfirmationDialog from "./components/ConfirmationDialog";
-import ProfilePage from "./pages/user/ProfilePage";
+import ProfilePage from "./Pages/user/ProfilePage";
 
 const routes = [
   {
