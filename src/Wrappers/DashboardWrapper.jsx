@@ -1,5 +1,5 @@
 import { Navigate, Outlet, useLoaderData } from "react-router";
-import NavBar from "../components/NavBar";
+import NavBar from "../Components/NavBar";
 
 const DashboardWrapper = () => {
 
